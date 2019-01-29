@@ -1,2 +1,2 @@
-STR "Hello, World!"
-PRT L
+ADD 4
+CPY 4
