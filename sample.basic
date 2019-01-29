@@ -1,2 +1,126 @@
-ADD 4
-CPY 4
+RHT 1
+ADD 9
+RHT 1
+ADD 9
+LFT 1
+WHL N
+  RHT 1
+  WHL N
+    LFT 1
+    WHL N
+      PRT I
+      RHT 1
+    END WHL
+    STR " bottles of beer on the wall,"
+    PRT L
+    LFT 1
+    WHL N
+      CLR C
+      LFT 1
+    END WHL
+    ADD :
+    PRT C
+    CLR C
+    LFT 2
+    WHL N
+      PRT I
+      RHT 1
+    END WHL
+    STR " bottles of beer."
+    PRT L
+    LFT 1
+    WHL N
+      CLR C
+      LFT 1
+    END WHL
+    ADD :
+    PRT C
+    CLR C
+    STR "Take one down, pass it around,"
+    PRT L
+    LFT 1
+    WHL N
+      CLR C
+      LFT 1
+    END WHL
+    ADD :
+    PRT C
+    CLR C
+    LFT 1
+    SUB 1
+    LFT 1
+    PRT I
+    RHT 1
+    PRT I
+    RHT 1
+    STR " bottles of beer on the wall."
+    PRT L
+    LFT 1
+    WHL N
+      CLR C
+      LFT 1
+    END WHL
+    ADD :
+    PRT C
+    PRT C
+    CLR C
+    LFT 1
+  END WHL
+  ADD 9
+  LFT 1
+  SUB 1
+END WHL
+RHT 1
+WHL N
+  PRT I
+  RHT 1
+  STR " bottle(s) of beer on the wall,"
+  PRT L
+  LFT 1
+  WHL N
+    CLR C
+    LFT 1
+  END WHL
+  ADD :
+  PRT C
+  CLR C
+  LFT 1
+  PRT I
+  RHT 1
+  STR " bottle(s) of beer."
+  PRT L
+  LFT 1
+  WHL N
+    CLR C
+    LFT 1
+  END WHL
+  ADD :
+  PRT C
+  CLR C
+  STR "Take one down, pass it around,"
+  PRT L
+  LFT 1
+  WHL N
+    CLR C
+    LFT 1
+  END WHL
+  ADD :
+  PRT C
+  CLR C
+  LFT 1
+  SUB 1
+  PRT I
+  RHT 1
+  STR " bottle(s) of beer on the wall."
+  PRT L
+  LFT 1
+  WHL N
+    CLR C
+    LFT 1
+  END WHL
+  ADD :
+  PRT C
+  PRT C
+  CLR C
+  LFT 1
+END WHL
